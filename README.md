@@ -1,7 +1,5 @@
 # Sicp Racket Boilerplate
 
-[![github action status](https://github.com/hexlet-boilerplates/sicp-racket/workflows/Racket%20CI/badge.svg)](https://github.com/hexlet-boilerplates/sicp-racket/actions)
-
 ### Requirements
 
 *  Racket
@@ -16,7 +14,3 @@
 2.  Write code (look `sicp/chapter1/02.rkt`)
 3.  Run tests `make test`
 4.  Run linter `make lint`
-
-[![Hexlet Ltd. logo](https://raw.githubusercontent.com/Hexlet/assets/master/images/hexlet_logo128.png)](https://hexlet.io?utm_source=github&utm_medium=link&utm_campaign=sicp-racket)
-
-This repository is created and maintained by the team and the community of Hexlet, an educational project. [Read more about Hexlet](https://hexlet.io?utm_source=github&utm_medium=link&utm_campaign=sicp-racket).
