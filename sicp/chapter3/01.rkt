@@ -3,9 +3,12 @@
 
 (#%require rackunit)
 
-(define (make-accumulate sum)
-  (lambda (term) (sequence (set! sum (+ sum term)) sum)))
 
+(define (make-accumulator start)
+  (let ((acc start))
+    (lambda (amount)
+      (set! acc (+ acc amount))
+      acc)))
 
 (define A (make-accumulator 5))
 

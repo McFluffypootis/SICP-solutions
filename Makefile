@@ -1,6 +1,7 @@
 install:
 	raco pkg install sicp
 	raco pkg install review
+	raco pkg install racket/exn
 
 test:
 	raco test sicp

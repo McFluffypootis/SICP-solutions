@@ -1,4 +1,4 @@
-# Sicp Racket Boilerplate
+# SICP solutions 
 
 ### Requirements
 
@@ -10,7 +10,6 @@
 
 ### Using
 
-1.  Copy content of this repo (not clone!) to your repository
-2.  Write code (look `sicp/chapter1/02.rkt`)
-3.  Run tests `make test`
-4.  Run linter `make lint`
+1.  Write code (look `sicp/chapter1/02.rkt`)
+2.  Run tests `make test`
+3.  Run linter `make lint`
